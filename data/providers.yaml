@@ -591,22 +591,22 @@ global_gateways:
 # ---------------------------------------------------------------------------
 # Self-hosted alternatives (自架閘道，供參考對比 — 非「中轉站」)
 # ---------------------------------------------------------------------------
-  - name: APIClaw
+    - name: APIClaw
       url: https://apiclaw.biz
-          type: aggregator
-              status: unverified
-                  payment: [card]
-                      models: [openai, anthropic, gemini]
-                          last_verified: null
-                              verified_by: community
-                                  entity_registered: unknown
-                                      supports_stream: unknown
-                                          supports_tools: unknown
-                                              risk_flags: [operator_submitted]
-                                                  notes:
-                                                        en: "Flat-rate OpenAI-compatible AI API (Claude, GPT, Kimi, Qwen, DeepSeek, GLM), $19–$129/mo, 50 free trial."
-                                                        
-                                                        self_hosted_alternatives:
+      type: aggregator
+      status: unverified
+      payment: [card]
+      models: [openai, anthropic, gemini]
+      last_verified: null
+      verified_by: community
+      entity_registered: unknown
+      supports_stream: unknown
+      supports_tools: unknown
+      risk_flags: [operator_submitted]
+      notes:
+        en: "Flat-rate OpenAI-compatible AI API (Claude, GPT, Kimi, Qwen, DeepSeek, GLM), $19–$129/mo, 50 free trial."
+        
+        self_hosted_alternatives:
   - name: One-API
     url: https://github.com/songquanpeng/one-api
     type: gateway-oss
