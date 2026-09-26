@@ -589,7 +589,23 @@ global_gateways:
       zh-CN: "OpenAI 兼容多模型 API 网关；GPT／Claude／Gemini 类模型分官方额度与路由钱包余额。"
 
 # ---------------------------------------------------------------------------
-# Self-hosted alternatives (自架閘道，供參考對比 — 非「中轉站」)
+  - name: APIClaw
+      url: https://apiclaw.biz
+          type: aggregator
+              status: unverified
+                  payment: [crypto]
+                      models: [openai, anthropic, google, deepseek, moonshot, qwen, zhipu]
+                          last_verified: null
+                              verified_by: community
+                                  supports_stream: unknown
+                                      supports_tools: unknown
+                                          risk_flags: [operator_submitted]
+                                              pricing:
+                                                    pricing_url: https://apiclaw.biz/
+                                                          pricing_currency: USD
+                                                              notes:
+                                                                    en: "Operator-submitted flat-rate OpenAI-compatible gateway with Claude, GPT, Gemini, DeepSeek, Kimi, Qwen, and GLM access. Plans are $19-$129/month with 50 free trial requests; not affiliated with Anthropic or OpenAI."
+                                                                    # Self-hosted alternatives (自架閘道，供參考對比 — 非「中轉站」)
 # ---------------------------------------------------------------------------
 self_hosted_alternatives:
   - name: One-API
