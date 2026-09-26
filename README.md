@@ -132,7 +132,6 @@ market, not a workaround niche.
 | 🟡 [AllRouter](https://allrouter.ai) | aggregator | Alipay/WeChat | OpenAI and Anthropic-compatible aggregator; Alipay and WeChat accepted; operator-claimed Kimi K3 at official Moonshot list price. |
 | 🟡 [AI Router](https://ai-router.dev) | mixed | Card/Crypto/Alipay/WeChat | OpenAI-compatible ChatGPT API relay at api.ai-router.dev/v1 with dashboard API keys, usage tracking, daily/weekly packages, and localized English/Chinese/Russian/Persian pages. |
 | 🟡 [Tokens Forge](https://tokens-forge.com) | aggregator | Card/WeChat | OpenAI-compatible multi-model API gateway with separate official credit and routed wallet balances for GPT, Claude, and Gemini-style models. |
-
 <!-- providers:global_gateways:end -->
 
 ## Self-hosted alternatives
